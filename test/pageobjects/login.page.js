@@ -19,6 +19,11 @@ class LoginPage extends Page {
         return $('#login-button');
     }
 
+    // **tried to to do an assertion with the epic sad face when using locked out used but kept getting undefined. */
+    // get sadFace() {
+    //     return $('login-box');
+    // }
+
     /**
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
